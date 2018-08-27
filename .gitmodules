@@ -3,4 +3,5 @@
 	url = https://github.com/rwmjones/riscv-linux
 [submodule "riscv-pk"]
 	path = riscv-pk
-	url = https://github.com/riscv/riscv-pk
+	url = https://github.com/berolinux/riscv-pk
+	branch = microsemi_extboard
