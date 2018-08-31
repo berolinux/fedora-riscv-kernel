@@ -125,6 +125,7 @@ bbl: vmlinux
 	rm -f $@
 	rm -rf riscv-pk/build
 	mkdir -p riscv-pk/build
+	cd riscv-pk && autoheader && autoconf
 	cd riscv-pk/build && \
 	../configure \
 	    --prefix=$(ROOT)/bbl-tmp \
