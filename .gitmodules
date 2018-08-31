@@ -1,6 +1,7 @@
 [submodule "riscv-linux"]
 	path = riscv-linux
 	url = https://github.com/rwmjones/riscv-linux
+	branch = riscv-linux-4.15
 [submodule "riscv-pk"]
 	path = riscv-pk
 	url = https://github.com/atishp04/riscv-pk
